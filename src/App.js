@@ -1,12 +1,10 @@
-import Service from './Components/Service/Service';
-
-
+import Service from './Components/service/Service';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <Service/>
+      <Service />
     </div>
   );
 }

@@ -1,0 +1,49 @@
+.mainBox {
+    border-radius: 16px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main_options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.main_options span {
+    font-weight: 500;
+}
+
+.main_feels_like {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.main_temp {
+    display: flex;
+    flex-direction: row;
+    font-size: var(--main-font-size);
+    line-height: var(--main-font-size);
+}
+
+.main_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.celsius {
+    height: 100%;
+    font-size: calc(var(--main-font-size) - 30px);
+}
+
+.clouds {
+    text-transform: capitalize;
+}

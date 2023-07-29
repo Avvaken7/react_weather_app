@@ -1,8 +1,18 @@
+@import-normalize;
+
+:root {
+  --bg-color: #F4EEFF;
+  --wrapper-color: #424874;
+  --text-color: #000;
+
+  --description-color: #ECE8DD;
+  --main-font-size: 64px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, 'Montserrat', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
 }
 
 code {

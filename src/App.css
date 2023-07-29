@@ -1,17 +1,5 @@
 .App {
   text-align: center;
-  /* background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,212,255,1) 100%); */
-  background: radial-gradient(circle, #497ca1db 0%, #ffffff 100%);
-  /* background: url('../public/cool-background.svg'); */
-  opacity: 0.9;
+  /* background: radial-gradient(circle, #497ca1db 0%, #ffffff 100%); */
+  background: url('./assets/bg.jpg') center;
 }
-
-.App::after {
-  content: 'Зроблено в Україні';
-  position: absolute;
-  bottom: 0;
-  font-size: small;
-  opacity: 0.1;
-}
-
-
